@@ -51,6 +51,8 @@ function gantiWarna (){
  btn1.innerHTML = 'Anda Sudah Submit'
 }
 
+
+// onmouserover mengubah ketika mouse ada di atas button
 function ubahText () {
     btn1.textContent = 'Anda Sudah Submit'
 }
