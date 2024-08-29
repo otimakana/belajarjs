@@ -42,6 +42,8 @@ btn1.style.padding = '12px'
 btn1.style.fontSize = '24px'
 btn1.style.background = 'Aqua'
 
+btn1.innerHTML = 'Klik 1 Kali'
+
 
 //event menambahkan saat berlangsugn
 // onclick
@@ -54,9 +56,10 @@ function gantiWarna (){
 
 // onmouserover mengubah ketika mouse ada di atas button
 function ubahText () {
-    btn1.textContent = 'Anda Sudah Submit'
+    btn1.textContent = 'Yakin? Sudah Submit'
+    btn1.style.background = 'Red'
 }
 
 function oriText () {
-    btn1.innerHTML = 'Terima Kasih Sudah Submit'
+    btn1.innerHTML
 }
